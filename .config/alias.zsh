@@ -6,13 +6,13 @@ abbr -S apr='sudo apt remove'
 abbr -S apu='sudo apt update && sudo apt upgrade'
 clear
 # Git
-abbr -S gad="git add ."
+abbr -S gad="git add"
 abbr -S gbr="git branch"
 abbr -S gcl="git clone"
 abbr -S gch="git checkout"
-abbr -S gcm="git commit -m ''"
-abbr -S gcma="git commit --amend -m ''"
-abbr -S gcme="git commit --allow-empty -m ''"
+abbr -S gcm="git commit -m"
+abbr -S gcma="git commit --amend -m"
+abbr -S gcme="git commit --allow-empty -m"
 abbr -S gin="git init && git branch -m main"
 abbr -S glg="git log --oneline"
 abbr -S gpl="git pull origin"
