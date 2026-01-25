@@ -9,4 +9,4 @@ eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
 
 source ~/dotfiles/.config/alias.zsh
-source ~/dotfiles/.config/fzf-history.zsh
+source ~/dotfiles/.config/functions.zsh
