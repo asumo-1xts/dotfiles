@@ -1,0 +1,24 @@
+[tools]
+rust = "latest"
+uv = "latest"
+node = "latest"
+npm = "latest"
+yarn = "4.9.2"
+
+[shell_alias]
+# 未分類
+cd = "z"
+ex = "exit"
+ls = "eza --icons --hyperlink --group-directories-first"
+# Zsh
+cl = "clear"
+sz = "source ~/dotfiles/.zshrc"
+cz = "code ~/dotfiles/.zshrc"
+cza = "code ~/dotfiles/.config/alias.zsh"
+cms = "code ~/dotfiles/.config/mise.toml"
+csh = "code ~/dotfiles/.config/sheldon/plugins.toml"
+cst = "code ~/dotfiles/.config/starship.toml"
+# 移動
+cdd = "cd ~/dotfiles"
+cdr = "cd ~/remote && ls -a"
+cds = "cd ~/sandbox && ls -a"

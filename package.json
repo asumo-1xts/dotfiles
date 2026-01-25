@@ -1,0 +1,30 @@
+{
+  "name": "dotfiles",
+  "version": "0.1.0",
+  "description": "Dotfiles of aSumo's Debian13 on WSL2",
+  "keywords": [
+    "dotfiles"
+  ],
+  "homepage": "https://github.com/asumo-1xts/dotfiles#readme",
+  "bugs": {
+    "url": "https://github.com/asumo-1xts/dotfiles/issues"
+  },
+  "license": "UNLICENSED",
+  "author": "aSumo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asumo-1xts/dotfiles.git"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "oxfmt --write",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.26.0"
+  }
+}
