@@ -30,27 +30,27 @@ cd ~/dotfiles
 mise trust && mise install
 
 cargo install sheldon
+
 curl -fsSL https://raw.githubusercontent.com/unhappychoice/gitlogue/main/install.sh | zsh
 
 zsh script/install-wslu.sh
+
+zsh script/tree.sh
+
+exec $SHELL -l
 ```
 
 ## Structure
 
 ```shell
-sh script/tree.sh
-
 .
-├── .config
-│   ├── alias.zsh
-│   ├── mise.toml
-│   ├── sheldon
-│   │   └── plugins.toml
-│   └── starship.toml
-├── script
-│   ├── install-sheldon.sh
-│   ├── install-tools.sh
-│   └── symbolic-link.sh
-└── .zshrc
+├── LICENSE
+├── package.json
+├── package-lock.json
+├── packages.ini
+└── script
+    ├── install-wslu.sh
+    ├── plot-tree.sh
+    └── symbolic-link.sh
 
 ```
