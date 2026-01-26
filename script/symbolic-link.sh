@@ -1,3 +1,8 @@
+#!/bin/zsh
+
+rm ~/.zshrc
+rm -rf ~/.config
+
 ln -nfs ./.zshrc ~/.zshrc
 ln -nfs ./.config/alias.zsh ~/.config/alias.zsh
 ln -nfs ./.config/functions.zsh ~/.config/functions.zsh

@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # GitHub CLIでwslviewを使うためにwsluをインストールする。
 # wsluは現在Debian 12までしか対応していない。
 # またPPA経由でのインストールが推奨されているが、Debian 13ではadd-apt-repositoryが使えない。
