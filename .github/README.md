@@ -1,5 +1,7 @@
 # dotfiles
 
+My dotfiles at Debian 13 on WSL2.
+
 ## Recovery with `script`
 
 ### 1. Set the shell to Zsh
