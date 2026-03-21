@@ -37,14 +37,18 @@ abbr -S mrm="mise remove"
 abbr -S mtr="mise trust"
 clear
 # Yarn
-abbr -S ya="yarn add -D"
+abbr -S ya="yarn add"
+abbr -S yad="yarn add -D"
 abbr -S yb="yarn build"
 abbr -S yd="yarn dev"
+abbr -S ydb="yarn docs:build"
+abbr -S ydd="yarn docs:dev"
 abbr -S yga="yarn global add"
 abbr -S ygr="yarn global remove"
 abbr -S yi="yarn install"
 abbr -S yr="yarn run"
-abbr -S yrm="yarn remove -D"
+abbr -S yrm="yarn remove"
+abbr -S yrmd="yarn remove -D"
 abbr -S yt="yarn test"
 clear
 # シンボリックリンク
