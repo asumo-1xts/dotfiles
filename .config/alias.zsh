@@ -52,7 +52,7 @@ abbr -S yrmd="yarn remove -D"
 abbr -S yt="yarn test"
 clear
 # シンボリックリンク
-abbr -S sl="ln -nfs <decoy> <body>"
+abbr -S sl="ln -s <source> <destination>"
 abbr -S sll="find ~/.config -type l"
-abbr -S sul="unlink <body>"
+abbr -S sul="unlink <destination>"
 clear
