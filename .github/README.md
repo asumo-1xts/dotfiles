@@ -9,6 +9,7 @@ My dotfiles at Debian 13 on WSL2.
 ```shell
 sudo apt install zsh
 chsh -s /bin/zsh
+
 exec $SHELL -l
 ```
 
@@ -39,21 +40,5 @@ mise trust && mise install
 
 cargo install sheldon
 
-zsh script/tree.sh
-
 exec $SHELL -l
-```
-
-## Structure
-
-```shell
-.
-├── LICENSE
-├── package.json
-├── package-lock.json
-├── packages.ini
-└── script
-    ├── plot-tree.sh
-    └── symbolic-link.sh
-
 ```
